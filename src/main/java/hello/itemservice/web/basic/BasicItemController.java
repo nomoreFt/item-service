@@ -77,4 +77,5 @@ public class BasicItemController {
         itemRepository.update(itemId,item);
         return "redirect:/basic/items/{itemId}";
     }
+    //
 }
